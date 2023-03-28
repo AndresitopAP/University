@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+24
+'Ingrese el valor de X1'
+5
+1
+2
+X1
+4
+1
+24
+'Ingrese el valor de X2'
+5
+1
+2
+X2
+4
+1
+24
+'Ingrese el valor de Y1'
+5
+1
+2
+Y1
+4
+1
+24
+'Ingrese el valor de Y2'
+5
+1
+2
+Y2
+6
+1
+1
+m
+21
+(Y2 - Y1) / (X2 - X1)
+4
+1
+38
+'El valor de de la Pendiente es = ' ,m
+1

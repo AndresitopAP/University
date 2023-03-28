@@ -1,0 +1,77 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+23
+'Ingrese el valor de A'
+5
+1
+1
+a
+4
+1
+23
+'Ingrese el valor de B'
+5
+1
+1
+b
+4
+1
+23
+'Ingrese el valor de C'
+5
+1
+1
+C
+6
+1
+1
+d
+19
+(B^2) - (4 * A * C)
+7
+0
+1
+5
+A = 0
+7
+0
+1
+5
+D < 0
+6
+2
+2
+X1
+23
+(-B + RC (D)) / (2 * A)
+2
+X2
+23
+(-B - RC (D)) / (2 * A)
+4
+1
+15
+'Raiz 1 = ' ,X1
+4
+1
+15
+'Raiz 2 = ' ,X2
+13
+4
+1
+22
+'No hay solucion real'
+13
+13
+4
+1
+13
+'No hay raiz'
+13
+1

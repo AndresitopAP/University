@@ -1,0 +1,46 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+33
+'Ingrese el valor del 1er numero'
+5
+1
+1
+a
+4
+1
+33
+'Ingrese el valor del 2do numero'
+5
+1
+1
+b
+7
+0
+1
+3
+a=b
+6
+1
+1
+c
+3
+a+b
+13
+6
+1
+1
+c
+1
+5
+13
+4
+1
+32
+'<' ,a, ' > + < ' ,b, ' > = ' ,C
+1

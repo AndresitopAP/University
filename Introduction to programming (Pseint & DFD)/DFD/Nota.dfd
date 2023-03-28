@@ -1,0 +1,63 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+17
+'Ingrese su nota'
+5
+1
+4
+nota
+7
+0
+1
+23
+nota >=18 and nota <=20
+7
+0
+1
+21
+nota>=13 and nota<=17
+7
+0
+1
+22
+nota>=9.5 and nota<=12
+7
+0
+1
+25
+nota >= 0 and nota <= 9.4
+4
+1
+7
+'Error'
+13
+4
+1
+11
+'Reprobado'
+13
+13
+4
+1
+9
+'Regular'
+13
+13
+4
+1
+10
+'Muy bien'
+13
+13
+4
+1
+10
+'Exelente'
+13
+1

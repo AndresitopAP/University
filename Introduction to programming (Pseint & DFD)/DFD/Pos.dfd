@@ -1,0 +1,78 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+2
+Vi
+1
+1
+2
+Vf
+1
+5
+6
+2
+8
+Contapos
+1
+0
+7
+Sumapos
+1
+0
+8
+1
+2
+Vc
+1
+2
+Vi
+1
+2
+Vf
+1
+1
+1
+4
+1
+28
+'Ingrese un numero Positivo'
+5
+1
+3
+Num
+7
+0
+1
+7
+Num > 0
+13
+6
+2
+8
+Contapos
+12
+Contapos + 1
+7
+Sumapos
+13
+Sumapos + Num
+13
+4
+1
+36
+'De < ' ,Vf, ' > numeros ingresados'
+4
+1
+40
+'    < ',Contapos, ' > Fueron Positivos'
+4
+1
+35
+' Y la suma de ellos es = ',SumaPos
+10
+1

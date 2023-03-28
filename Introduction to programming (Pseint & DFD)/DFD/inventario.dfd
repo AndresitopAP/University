@@ -1,0 +1,57 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+62
+'Hay Disponibles 70 combos de harburgesas cuantas va a desear'
+5
+1
+2
+ch
+4
+1
+52
+'Hay disponibles 500 Coca-Colas cuantas va a desear'
+5
+1
+2
+cc
+4
+1
+66
+'Hay disponibles 150 Paquetes de Papas fritas cuantos va a desear'
+5
+1
+2
+pf
+6
+3
+3
+tch
+7
+70 - ch
+3
+tcc
+6
+500-cc
+3
+tpf
+6
+150-pf
+4
+1
+59
+'En el inventario quedan ' , tch , ' Combos de hamburgesas'
+4
+1
+49
+'En el Inventario quedad ' , tcc , ' Coca-Colas' 
+4
+1
+63
+' En el inventario quedan ' , tpf , ' Paquetes de Papas fritas'
+1

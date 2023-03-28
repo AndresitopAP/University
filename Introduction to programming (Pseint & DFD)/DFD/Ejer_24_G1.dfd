@@ -1,0 +1,74 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+vc
+3
+-98
+5
+cdato
+1
+0
+3
+num
+4
+1234
+6
+1
+6
+simpar
+1
+0
+9
+1
+8
+num !=vc
+4
+1
+25
+'Ingrese un numero impar'
+4
+1
+25
+'Para salir ingrese ' ,vc
+5
+1
+3
+num
+7
+0
+1
+7
+num =vc
+6
+1
+5
+cdato
+9
+cdato + 1
+7
+0
+1
+14
+num mod 2 != 0
+13
+6
+1
+6
+simpar
+12
+simpar + num
+13
+13
+13
+11
+4
+1
+58
+'De ' ,cdato, ' numeros ingresados ',simpar, ' es la suma'
+1

@@ -1,0 +1,78 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+30
+'Ingrese el dia de cumpleaños'
+5
+1
+2
+dc
+4
+1
+30
+'Ingrese el mes de cumpleaños'
+5
+1
+2
+mc
+4
+1
+30
+'ingrese el año de cumpleaños'
+5
+1
+2
+ac
+4
+1
+24
+'Ingrese el dia deseado'
+5
+1
+1
+d
+4
+1
+24
+'Ingrese el mes deseado'
+5
+1
+1
+m
+4
+1
+24
+'Ingrese el año deseado'
+5
+1
+1
+a
+7
+0
+1
+19
+dc >= d and mc >= m
+6
+1
+1
+e
+6
+a - ac
+13
+6
+1
+1
+e
+10
+a - ac - 1
+13
+4
+1
+17
+'Usted tiene ' ,e
+1

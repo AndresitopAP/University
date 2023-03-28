@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+34
+'Ingrese la nota del primer corte'
+5
+1
+1
+a
+4
+1
+35
+'Ingrese la nota del segundo corte'
+5
+1
+1
+b
+6
+3
+1
+c
+5
+a*0.4
+1
+d
+5
+b*0.6
+1
+h
+3
+c+d
+4
+1
+24
+'La nota total es = ' ,h
+1

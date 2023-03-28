@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+2
+Vi
+1
+1
+2
+Vf
+1
+7
+6
+2
+8
+Contapos
+1
+0
+7
+Sumapos
+1
+0
+8
+1
+2
+Vc
+1
+2
+Vi
+1
+2
+Vf
+1
+1
+1
+4
+1
+28
+'Ingrese el numero Negatico'
+4
+1
+24
+'En orden Numerica ' ,Vc
+5
+1
+3
+num
+7
+0
+1
+24
+num mod 2 =0 and num !=0
+13
+6
+2
+8
+Contapos
+12
+Contapos + 1
+7
+Sumapos
+13
+Sumapos + num
+13
+10
+4
+1
+35
+'De < ' ,vf, ' > Numero ingresados'
+4
+1
+36
+'<' ,Contapos, ' > Fueron Negativos'
+4
+1
+35
+'Y la suma de ellos es = ' ,Sumapos
+1

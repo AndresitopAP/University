@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+19
+'Ingrese el digito'
+5
+1
+1
+d
+7
+0
+1
+32
+d>=1 and d<=9 or d<=-1 and d>=-9
+7
+0
+1
+37
+d>=10 and d<=99 or d<=-10 and d >=-99
+7
+0
+1
+40
+d>=100 and d<=999 or d<=-100 and >= -999
+7
+0
+1
+47
+d>= 1000 and d<=9999 or d <= -1000 and d>=-9999
+13
+4
+1
+20
+'Son cuatro Digitos'
+13
+13
+4
+1
+18
+'Son tres Digitos'
+13
+13
+4
+1
+17
+'Son dos Digitos'
+13
+13
+4
+1
+19
+'Es un solo Digito'
+13
+1

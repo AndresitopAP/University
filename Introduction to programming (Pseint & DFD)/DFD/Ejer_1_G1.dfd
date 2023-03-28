@@ -1,0 +1,39 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+1
+P
+4
+3.14
+4
+1
+25
+'Dame el valor del Radio'
+5
+1
+1
+r
+4
+1
+41
+'Dame el valor de la altura del cilindro'
+5
+1
+1
+h
+6
+1
+2
+Vc
+13
+p * (R^2) * h
+4
+1
+36
+'El Volumen = ' ,Vc,' Unid. Cubicas'
+1

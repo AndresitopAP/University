@@ -1,0 +1,77 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+6
+sumpar
+1
+0
+6
+tolpar
+1
+0
+3
+num
+1
+0
+6
+1
+7
+proimpa
+1
+0
+9
+1
+10
+num != -99
+4
+1
+19
+'ingrese un numero'
+5
+1
+3
+num
+6
+1
+6
+sumpar
+9
+num mod 2
+7
+0
+1
+10
+sumpar = 0
+6
+1
+7
+proimpa
+11
+proimpa + 1
+13
+6
+1
+6
+tolpar
+12
+tolpar + num
+13
+4
+1
+24
+'para salir ingrese -99'
+4
+1
+45
+'el promedio de los numeros impares:',proimpa
+4
+1
+46
+'la sumatoria de los numeros pares es:',tolpar
+11
+1

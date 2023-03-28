@@ -1,0 +1,158 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+24
+'Ingrese un mes del año'
+5
+1
+1
+m
+7
+0
+1
+3
+m=1
+7
+0
+1
+3
+m=2
+7
+0
+1
+3
+m=3
+7
+0
+1
+3
+m=4
+7
+0
+1
+3
+m=5
+7
+0
+1
+3
+m=6
+7
+0
+1
+3
+m=7
+7
+0
+1
+3
+m=8
+7
+0
+1
+3
+m=9
+7
+0
+1
+4
+m=10
+7
+0
+1
+4
+m=11
+7
+0
+1
+4
+m=12
+7
+0
+1
+13
+m>=13 or m<=0
+13
+4
+1
+7
+'Error'
+13
+13
+4
+1
+28
+'El mes actual es Diciembre'
+13
+13
+4
+1
+28
+'El mes actual es Noviembre'
+13
+13
+4
+1
+26
+'El mes actual es Octubre'
+13
+13
+4
+1
+29
+'El mes actual es Septiembre'
+13
+13
+4
+1
+25
+'El mes actual es Agosto'
+13
+13
+4
+1
+24
+'El mes actual es Julio'
+13
+13
+4
+1
+24
+'El mes actual es Junio'
+13
+13
+4
+1
+23
+'El mes actual es Mayo'
+13
+13
+4
+1
+24
+'El mes actual es Abril'
+13
+13
+4
+1
+24
+'El mes actual es Marzo'
+13
+13
+4
+1
+26
+'El mes actual es Febrero'
+13
+13
+4
+1
+24
+'El mes actual es Enero'
+13
+1

@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+18
+'Ingrese un Valor'
+5
+1
+1
+x
+6
+1
+1
+F
+5
+(x)^2
+7
+0
+1
+7
+F <= 49
+7
+0
+1
+6
+F > 49
+13
+4
+1
+26
+'Resultado fuera de rango'
+13
+13
+4
+1
+23
+'El resultado es = ' ,F
+13
+1
