@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad #1 Andres Espitia</title>
+</head>
+<body style="background-color: black;">
+  
+  <script>
+
+    //Andres Espitia C.I:28.428.690
+    var note_low = 0, note_high = 0, prom = 0, sum = 0, age = 0;
+    var day_t = 30, mouth_t = 9, year_t = 2023;
+    var age_v = "";
+    
+    var name = prompt("Ingrese su nombre");
+    var lastname = prompt("Ingrese su apellido");
+
+    var day_validation = false;
+    while(!day_validation) {
+      var day = Number(prompt("Ingrese el dia de su nacimiento"));
+      if (day > 0 && day <= 31) {
+        day_validation = true;
+      }
+    }
+
+    var mouth_validation = false;
+    while(!mouth_validation) {
+      var mouth = Number(prompt("Ingrese el mes de su nacimiento"));
+      if (mouth > 0 && mouth <= 12) {
+        mouth_validation = true;
+      }
+    }
+
+    var year_validation = false;
+    while(!year_validation) {
+      var year = Number(prompt("Ingrese el año de su nacimiento"));
+      if (year > 0 && year < 2023) {
+        year_validation = true;
+      }
+    }
+
+    var notes = Number(prompt("ingrese las cantidad de notas que desea ingresar"));
+    
+    for (var i = 0; i < notes; i++) {
+      
+      var note = Number(prompt("Ingrese la nota"));
+      //var note = parseInt(note);
+
+      if (i == 0) {
+        note_low = note;
+        note_high = note;
+      }
+
+      if (note <= note_low){
+        note_low = note;
+      }
+      if (note >= note_high){
+        note_high = note;
+      }
+      sum = sum + note;
+    }
+
+    prom = sum / notes;
+
+   if(day>=day_t || mouth>=mouth_t){
+      age = year_t - year - 1;
+   }
+    else{
+      age = year_t - year;
+    }
+
+    if(age >= 18){
+      age_v = ("Es mayor de edad");
+    }
+    else{
+      age_v = ("Es menor de edad");
+    }
+    console.log("Su nombre es: " + name);
+    console.log("Su apellido es: " + lastname);
+    console.log("Su edad es: ", age);
+    console.log(age_v);
+    console.log("Su promedio es: " + prom);
+    console.log("Su nota mas baja es: " + note_low);
+    console.log("Su nota mas alta es: " + note_high);
+
+  </script>
+</body>
+</html>
