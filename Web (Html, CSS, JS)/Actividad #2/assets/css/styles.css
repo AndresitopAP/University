@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#container{
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#header{
+  display: table;
+  width: 100%;
+  height: 400px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(92, 97, 187);
+  text-align: center;
+  padding-top: 2%;
+  font-weight: 700;
+  background-color: rgba(215, 109, 109, 0.355);
+  background-image: url(../images/hacker.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#header h1{
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 1%;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: open sans, sans-serif;
+}
+
+#nav{
+  background-color: #000;
+  color: aquamarine;
+  display: table;
+  width: 100%;
+}
+
+#nav ol{
+  display: flex;
+}
+
+#nav ol li{
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 17px;
+  font-family: open sans, sans-serif;
+}
+
+#nav ol li a{
+  text-decoration: none;
+  padding: 15px 20px 15px 20px;
+  color: aquamarine;
+}
+
+#biografia{
+  background: #ffffff;
+  color: black;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#biografia h3{
+  text-align: left;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  font-family: open sans, sans-serif;
+  font-size: 30px;
+}
+
+
+#logros{
+  background: #ffffff;
+  color: black;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#logros h3{
+  text-align: right;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  margin-right: 6.5%;
+  font-family: open sans, sans-serif;
+  font-size: 30px;
+}
+
+#eni{
+  width: 255px;
+  height: 250px;
+  float: left;
+  margin-left: 3%;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  margin-right: 3%;
+
+}
+
+#inventos{
+  background: #ffffff;
+  color: black;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#inventos h3{
+  text-align: left;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  font-family: open sans, sans-serif;
+  font-size: 30px;
+}
+
+#com{
+  width: 250px;
+  height: 300px;
+  float: right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  margin-right: 3%;
+
+}
+
+#left{
+  text-align: left;
+  margin-left: 2%;
+  margin-top: 1.5%;
+  font-family: open sans, sans-serif;
+  font-size: 50px;
+}
+
+#right{
+  text-align: right;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  font-family: open sans, sans-serif;
+  font-size: 50px;
+}
+
+/*
+h2{
+  text-align: center;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+}
+
+*/
+
+p{
+  text-align: justify;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  font-family: open sans, sans-serif;
+  font-size: 18px;
+}
+
+#footer{
+  display: table;
+  width: 100%;
+  height: 70px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(92, 97, 187);
+  text-align: center;
+  padding-top: 2%;
+  font-weight: 700;
+  background-color: rgba(215, 109, 109, 0.355);
+}
