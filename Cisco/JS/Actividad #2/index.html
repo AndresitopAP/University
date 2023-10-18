@@ -1,0 +1,46 @@
+<!--Realizar una app web que permita reproducir audio o video. (3 canciones)
+
+Controles
+1. La cancion o video al teminar debe pasar a la siguiente automaticamente.
+2. Debe tener los botones de atras y adelante.
+3. Debe tener el boton de repetir la cancion al terminar.
+
+Cada cancion debe tener la siguiente informacion
+1. Cantante
+2. Fecha de estreno
+3. que permita al usuario Agregar comentario (por audio)
+	* Nombre
+	* Comentario
+
+Debe tener un diseño unico aplicando CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor</title>
+  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="/Styles/styles.css">
+  <link rel="icon" type="image/ico" href="/media/img/logo.ico" />
+</head>
+<body>
+  <header>
+    <div id="container">
+      <div id="logo">
+        <img id="logo" src="/media/img/logo.ico" alt="logo">
+      </div>
+      <div id="title">
+        <h1>Reproductor</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <audio id="music" controls autoplay muted>
+    </audio>
+  </main>
+  
+
+  <script src="/scripts/index.js"></script>
+</body>
+</html>
