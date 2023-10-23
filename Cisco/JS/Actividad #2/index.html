@@ -12,35 +12,85 @@ Cada cancion debe tener la siguiente informacion
 	* Nombre
 	* Comentario
 
-Debe tener un diseño unico aplicando CSS -->
+Debe tener un diseño unico aplicando CSS activated -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reproductor</title>
-  <meta name="theme-color" content="#fafafa">
-  <link rel="stylesheet" href="/Styles/styles.css">
-  <link rel="icon" type="image/ico" href="/media/img/logo.ico" />
-</head>
-<body>
-  <header>
-    <div id="container">
-      <div id="logo">
-        <img id="logo" src="/media/img/logo.ico" alt="logo">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor</title>
+    <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="/Styles/styles.css">
+    <link rel="icon" type="image/ico" href="/media/img/logo.ico" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <ol id="o">
+          <li> I love it</li>
+          <li> In the end </li>
+          <li> Welleman </li>
+          <li> Un millon de primaveras </li>
+          <li> Abusadora </li>
+        </ol>
       </div>
-      <div id="title">
-        <h1>Reproductor</h1>
-      </div>
-    </div>
-  </header>
-  <main>
-    <audio id="music" controls autoplay muted>
-    </audio>
-  </main>
+    </main>
+    <footer>
+      <section class="container">
+        <div class="player">
+          <audio id="audio-player"></audio>
+          <img id="cover" class="cover" src="" alt="imagen de la cancion">
+          <h2 id="song-name" class="song-name"></h2>
+          <p id="song-author" class="song-author"></p>
+          <p id="song-date" class="song-date"></p>
+          <div class="player-progress">
+            <div class="progress-values">
+              <span id="player-current-time">00:00</span>
+              <span id="player-duration" class="pull-right">00:00</span>
+            </div>
+            <progress id="player-progress"></progress>
+          </div>
+          <div class="player-buttons">
+            <button id="btn-repeat" class="btn btn-repeat pointer">
+              <i class="bi bi-repeat"></i>
+              <img src="/media/iconos/repetir.png" alt="boton repetir"
+              width="10px" height="10px">
+            </button>
+            <button id="btn-prev" class="btn btn-prev pointer">
+              <i class="bi bi-rewind-fill"></i>
+              <img src="/media/iconos/atras.png" alt="boton atras"
+              width="10px" height="10px">
+            </button>
+            <button id="btn-play" class="btn btn-play pointer">
+              <i id="btn-play-icon" class="bi bi-play-fill"></i>
+              <img src="/media/iconos/play-pausa.png" alt="boton play"
+              width="10px" height="10px">
+            </button>
+            <button id="btn-next" class="btn btn-next pointer">
+              <i class="bi bi-fast-forward-fill"></i>
+              <img src="/media/iconos/adelante.jpg" alt="boton adelante"
+              width="10px" height="10px">
+            </button>
+            <div class="dropdown">
+              <button id="btn-volume" class="btnbtn-volume">
+                <i class="bi bi-volume-up-fill"></i>
+                <div class="dropdown-content">
+                  <input type="range" id="player-volume" value="1" min="0" max="1" step="0.01" />
+                </div>
+              </button>
+            </div>
+            <div>
   
+            </div>
+        </div>
+  
+      </section>
 
-  <script src="/scripts/index.js"></script>
-</body>
+    </footer>
+      
+    
+
+    <script src="/scripts/index.js"></script>
+  </body>
 </html>
