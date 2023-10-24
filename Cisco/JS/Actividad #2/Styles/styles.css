@@ -1,10 +1,6 @@
-html{
-  background-color: rgb(255, 250, 250);
-}
-  
 body{
-  background-color: rgb(255, 250, 250);
-  font-family: 'Roboto', sans-serif;
+  background-color: pink;
+  font-family: open sans, sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -16,8 +12,8 @@ footer{
   display: table;
   width: 100%;
   height: 10%;
-  color: rgb(222, 196, 196);
-  background-color: rgb(33, 68, 34);
+  color: rgb(67, 23, 23);
+  background-color: rgb(124, 125, 207);
   text-align: center;
   font-weight: 700;
 }
@@ -30,8 +26,10 @@ p{
 
 #o{
   list-style-type: upper-roman;
-  font-size: 20px;
+  font-size: 29px;
   margin-left: 450px;
+  margin-bottom: 55px;
+  color: hsl(241, 68%, 69%);
 }
 
 #cover{
@@ -43,5 +41,12 @@ p{
   border-radius: 10px;
 }
 
-
+.lv{
+  font-family: open sans, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: hsl(241, 68%, 69%);
+}
 
