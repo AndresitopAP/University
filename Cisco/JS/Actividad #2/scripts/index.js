@@ -1,19 +1,3 @@
-/*Realizar una app web que permita reproducir audio o video. (5 canciones)
-
-Controles
-1. La cancion o video al teminar debe pasar a la siguiente automaticamente.
-2. Debe tener los botones de atras y adelante.
-3. Debe tener el boton de repetir la cancion al terminar.
-
-Cada cancion debe tener la siguiente informacion
-1. Cantante
-2. Fecha de estreno
-3. Se prodra Agregar comentario por pantalla (por audio o video)
-	* Nombre
-	* Comentario
-
-Debe tener un diseño unico aplicando CSS */
-
 const btnPlay = document.querySelector("#btn-play");
 const btnPlayIcon = document.querySelector("#btn-play-icon");
 const btnRepeat = document.querySelector("#btn-repeat");
