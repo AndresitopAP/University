@@ -26,9 +26,9 @@ p{
 
 #o{
   list-style-type: upper-roman;
-  font-size: 29px;
+  font-size: 20px;
   margin-left: 450px;
-  margin-bottom: 55px;
+  margin-bottom: 45px;
   color: hsl(241, 68%, 69%);
 }
 
@@ -43,10 +43,26 @@ p{
 
 .lv{
   font-family: open sans, sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   color: hsl(241, 68%, 69%);
 }
 
+.en2{
+  font-family: open sans, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: hsl(241, 68%, 69%);
+}
+
+form{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 34px;
+}

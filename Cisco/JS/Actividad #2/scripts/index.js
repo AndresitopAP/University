@@ -82,6 +82,10 @@ playerProgress.addEventListener("input", () => changeTime());
 audioPlayer.addEventListener("timeupdate", () => timeUpdate());
 audioPlayer.addEventListener("ended", () => ended());
 
+const txt = document.querySelector("#name");
+const comment = document.getElementById("#comen");
+
+
 const togglePlaySong = () => {
   if (audioPlayer.paused) {
     audioPlayer.play();
