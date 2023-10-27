@@ -1,0 +1,51 @@
+p{
+  font-family: open sans, sans-serif;
+  font-size: 18px;
+}
+
+.container{
+  text-align: justify;
+  display: table;
+  font-family: open sans, sans-serif;
+}
+
+.navbar{
+  background-color: lightsteelblue;
+  color: white;
+  font-family: open sans, sans-serif;
+}
+
+img{
+  margin: auto auto;
+  display: table;
+  border-radius: 5%;
+}
+
+.card{
+  margin: auto auto;
+}
+
+h1{
+  text-align: center;
+  color: rgb(99, 114, 129);
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(99, 114, 129);
+    
+}
+
+footer{
+  color: white;
+  font-family: open sans, sans-serif;
+}
+
+
+hr{
+  border: none;
+  color: rgb(236, 178, 198);
+  height: 3.5px;
+  background-color: rgb(236, 178, 198);
+}
