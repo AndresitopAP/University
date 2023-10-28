@@ -1,6 +1,14 @@
 p{
+  text-align: justify;
   font-family: open sans, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 25px;
 }
 
 .container{
@@ -10,13 +18,14 @@ p{
 }
 
 .navbar{
-  background-color: lightsteelblue;
-  color: white;
+  background-color: #c55241;
+  color: black;
   font-family: open sans, sans-serif;
 }
 
 img{
   margin: auto auto;
+  margin-bottom: 15px;
   display: table;
   border-radius: 5%;
 }
@@ -27,25 +36,35 @@ img{
 
 h1{
   text-align: center;
-  color: rgb(99, 114, 129);
+  font-size: 40px;
+  color: #a72f1d;
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
 
 h2{
   text-align: center;
-  font-size: 50px;
-  color: rgb(99, 114, 129);
-    
+  font-size: 40px;
+  color: #a72f1d;
 }
 
-footer{
+.footer{
   color: white;
+  background-color: #a72f1d;
   font-family: open sans, sans-serif;
 }
 
 
 hr{
   border: none;
-  color: rgb(236, 178, 198);
   height: 3.5px;
-  background-color: rgb(236, 178, 198);
+  background-color: #751102;
+}
+
+.curo{
+  background-color: #d1a194;
+}
+
+.fondo{
+  background-color: #f5e9e6;
 }
