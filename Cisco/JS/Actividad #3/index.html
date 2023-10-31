@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="/icons/icono.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="tag-box-1">
+      <div class="box-a">
+        <h4>Find your Pokémon</h4>
+
+        <div id="search-box" class="search-box">
+          <input
+            id="take-id"
+            class="search-txt"
+            type="text"
+            placeholder="name or number"
+          />
+          <a id="search-btn" class="search-btn" onclick="searchPokemon()">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="tag-box-2">
+      <div id="pre-loader" class="pre-loader"></div>
+      <div id="pokemon-box" class="pokemon-box"></div>
+    </div>
+
+    <div id="button-box" class="button-box">
+      <button id="load" type="button" onclick="loadNum1()">
+        More Pokémons
+      </button>
+    </div>
+
+    <div id="button-up" class="button-up" onclick="scrollUp()">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <footer>
+      <div class="footer-title-box">
+        <h3>Pokédex</h3>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/374c2f9ff0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/lib/axios.min.js"></script>
+    <script src="/scripts/scroll.js"></script>
+    <script src="/scripts/toggle.js"></script>
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>

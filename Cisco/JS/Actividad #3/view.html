@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon</title>
+    <link
+      rel="shortcut icon"
+      href="/icons/icono.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="box-a"></div>
+      <div class="box-b"></div>
+    </div>
+
+    <div class="main">
+      <div id="pokemon-name-box" class="pokemon-name-box">
+      </div>
+
+      <div id="pokemon-main-box-1" class="pokemon-main-box-1">
+        <div id="pre-loader" class="pre-loader"></div>
+      </div>
+
+      <div id="pokemon-main-box-2" class="pokemon-main-box-2"></div>
+
+      <div id="pokemon-main-box-3" class="pokemon-main-box-3"></div>
+
+      <div id="button-main-box" class="button-main-box"></div>
+    </div>
+
+    <div id="button-up" class="button-up" onclick="scrollUp()">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <footer>
+      <div class="footer-title-box">
+        <h3>Pokédex</h3>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/374c2f9ff0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/lib/axios.min.js"></script>
+    <script src="/scripts/toggle.js"></script>
+    <script src="/scripts/scroll.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
