@@ -1,0 +1,21 @@
+{
+  "name": "studens",
+  "version": "1.0.0",
+  "description": "servidor para una actividad",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon scripts/index.js"
+  },
+  "keywords": [
+    "studens"
+  ],
+  "author": "Andres Espitia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

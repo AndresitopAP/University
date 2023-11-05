@@ -1,0 +1,33 @@
+Realizar una API con NodeJS para la gestion de los estudiantes
+
+Endpoint 
+/student
+
+METODOS A TRABAJAR
+
+POST
+Se debe introducir los siguientes datos:
+* nombre
+* apellido
+* cedula
+* sexo
+* cantidad de notas (array)
+* fecha de nacimiento
+Y en el servidor deberan almacenar esa informacion en un archivo .json
+
+- GET 
+Obtener todos los datos mas el promedio y edad.
+
+- PUT 
+Actualizar todos los datos
+
+- DELETE 
+Eliminar el estudiante indicado
+
+
+la dependencia para el manejo de archivos es fs (ya la tiene integrada node)
+
+COMANDO
+npm install (instalar dependencias del package.json)
+npm run (comando) es para indicar cual comando correra de package.json)
+npm init (para iniciar un proyecto desde 0)
