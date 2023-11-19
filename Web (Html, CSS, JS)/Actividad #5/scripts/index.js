@@ -9,6 +9,11 @@ function sendData(){
   const email = document.querySelector("#mail").value;
   const message = document.querySelector("#message").value;
 
+  if(name == "" || lastname == "" || id == "" || number == "" || email == "" || message == ""){
+    alert("Por favor llene todos los campos");
+    return false;
+  }
+
   data.push({
       name: name,
       lastname: lastname,
