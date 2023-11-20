@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#a72f1d">
+    <meta name="description" content="Pagina para mi portafolio" >
     <title>Mi Portfolio</title>
     <link rel="stylesheet" href="/styles/index.css" />
     <link rel="stylesheet" href="/styles/mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="/img/icons/icono.ico">
   </head>
   <body>
     <nav id="desktop-nav">
       <div class="logo">Andres Espitia</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="/pages/contatc.html">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -32,7 +35,7 @@
           <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+          <li><a href="/pages/contatc.html" onclick="toggleMenu()">Contacto</a></li>
         </div>
       </div>
     </nav>
@@ -45,53 +48,35 @@
         <h1 class="title">Andres Espitia</h1>
         <p class="section__text__p2">Estudiante</p>
         <div id="socials-container">
-          <img
-            src="/img/icons/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="/img/icons/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="'https://github.com/AndresitopAP'"
-          />
+          <a href="https://www.linkedin.com/in/andres-espitia-36849b263/">
+            <img
+              src="/img/icons/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+          <a href="https://github.com/AndresitopAP">
+            <img
+              src="/img/icons/github.png"
+              alt="My Github profile"
+              class="icon"
+            />
+          </a>
         </div>
       </div>
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <h1 class="title">Sobre Mi</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="/img/ESPITIA.png"
             alt="Profile picture"
             class="about-pic"
           />
         </div>
         <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
-            </div>
-          </div>
           <div class="text-container">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
@@ -105,7 +90,7 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="/img/icons/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
@@ -113,7 +98,7 @@
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Experiencia</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -121,117 +106,139 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <p>Avanzado</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <p>Avanzado</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <h3>Bootstrap</h3>
+                  <p>Intermedio</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <p>Intermedio</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>Wordpress</h3>
+                  <p>Basico</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>Azure(nube)</h3>
+                  <p>Basico</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>MySQL</h3>
+                  <p>Basico</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <p>Intermedio</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>SQLServer</h3>
+                  <p>Basico</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="/img/icons/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/img/icons/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/img/icons/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>RPA</h3>
+                  <p>Intermedio</p>
                 </div>
               </article>
             </div>
@@ -239,7 +246,7 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="/img/icons/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
@@ -247,124 +254,193 @@
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h1 class="title">Proyectos</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="/img/pag1.jpg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Proyecto 1</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <a href="https://github.com/AndresitopAP/University/tree/main/Web%20(Html%2C%20CSS%2C%20JS)/Actividad%20%231">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button>
+              </a>
+              <a href="https://front-edinson.azurewebsites.net/index.html">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button>
+              </a>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
-                alt="Project 2"
+                src="/img/pag2.jpg"
+                alt="Proyecto 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Proyecto 2</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <a href="https://github.com/AndresitopAP/University/tree/main/Web%20(Html%2C%20CSS%2C%20JS)/Actividad%20%232">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button>
+              </a>
+              <a href="https://front-alan.azurewebsites.net/#container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button>
+              </a>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="/img/pag3.1.jpg"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Proyecto 3 </h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <a href="https://github.com/AndresitopAP/University/tree/main/Web%20(Html%2C%20CSS%2C%20JS)/Actividad%20%233">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button>
+              </a>
+              <a href="https://front-retro.azurewebsites.net/">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+      
     </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+    <section id="projects">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/img/pag4.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto 4</h2>
+            <div class="btn-container">
+              <a href="https://github.com/AndresitopAP/University/tree/main/Web%20(Html%2C%20CSS%2C%20JS)/Actividad%20%234">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button>
+              </a>
+              <a href="https://front-pokemon.azurewebsites.net/">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/img/pag5.jpg"
+                alt="Proyecto 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto 2</h2>
+            <div class="btn-container">
+              <a href="https://github.com/AndresitopAP/University/tree/main/Web%20(Html%2C%20CSS%2C%20JS)/Actividad%20%235">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button>
+              </a>
+              <a href="https://fron-ark.azurewebsites.net/index.html">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/img/pag6.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto 3 </h2>
+            <div class="btn-container">
+              <a href="https://github.com/AndresitopAP/University/tree/main/Web%20(Html%2C%20CSS%2C%20JS)/Actividad%20%236">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Github
+                </button>
+              </a>
+              <a href="https://front-mrrobot.azurewebsites.net/index.html">
+                <button
+                  class="btn btn-color-2 project-btn"
+                >
+                  Live Demo
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+      
     </section>
+    
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contactos</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>
+        &copy; 2023. Todos los derechos reservados. Diseñado por <a href="https://github.com/AndresitopAP">Andres Espitia</a>
+        <a href="https://www.instagram.com/andre_espitia/"><img src="/img/icons/insta.png" alt="icono instagram" width="20px" height="20px"></a>
+        <a href="https://twitter.com/Andresespi2901"><img src="/img/icons/twitter.png" alt="icono twitter" width="20px" height="20px"></a>
+      </p>
     </footer>
     <script src="/script/index.js"></script>
   </body>
