@@ -6,20 +6,35 @@
   <meta name="description" content="Pagina del FC Barcelona" >
   <title>Pagina #3-F.C. Barcelona Plantilla Femenil</title>
   <link rel="icon" type="image/x-icon" href="iconos/barcelona-fc.ico"/>
-  
+  <link rel="stylesheet" href="/pagina 2/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="/pagina 2/styles/index.css">
 </head>
 <body style="background-image: url('iconos/campo.jpg'); background-repeat: no-repeat; background-size: cover;">
   <header>
-    <div>
-        <h1 style="text-align: center; color: brown;"><img src="/pagina 1/iconos/Barcelona-Logo.ico" width="55px" height="35px">F.C. Barcelona</h1>
-        <nav>
-            <ul>
-              <li><a href="../pagina 1/index.html">Inicio</a></li>
-              <li><a href="/pagina 2/index.html">Plantilla Masculina</a></li>
-              <li><a href="#">Plantilla Femenil</a></li>
-            </ul>
-          </nav>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/pagina 1/iconos/Barcelona-Logo.ico" width="55px" height="35px" class="d-inline-block align-text-top">
+          F.C. Barcelona
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../pagina 1/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/pagina 2/index.html">Masculina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pagina 2/index1.html">Femenil</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
   </header>
   <main>
     <h1 style="text-align: center; color: brown;">Plantilla Femenil</h1>
@@ -62,11 +77,12 @@
       <img src="/pagina 2/iconos/femenil/20-Oshoala.webp" alt="Oshala" height="150px" width="200px">
     </div>
   </main>
-  <footer>
-    <p style="color: rgb(255, 255, 255);">
-      &copy; 2024. Todos los derechos reservados. Diseñado por <a href="https://github.com/AndresitopAP">Andres Espitia</a>
-      <a href="https://www.instagram.com/andre_espitia/"><img src="iconos/insta.png" alt="icono instagram" width="20px" height="20px"></a>
-      <a href="https://twitter.com/Andresespi2901"><img src="iconos/twitter.png" alt="icono twitter" width="20px" height="20px"></a>
+  <footer class="container">
+    <p class="float-end"><a href="#">Volver al inicio</a></p>
+    <p>
+      &copy; 2023. Todos los derechos reservados. Diseñado por <a href="https://github.com/AndresitopAP">Andres Espitia</a>
+      <a href="https://www.instagram.com/andre_espitia/"><img src="/icons/insta.png" alt="icono instagram" width="20px" height="20px"></a>
+      <a href="https://twitter.com/Andresespi2901"><img src="/icons/twitter.png" alt="icono twitter" width="20px" height="20px"></a>
     </p>
   </footer>
 </body>

@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pagina del FC Barcelona" >
-  <title>Pagina #1-F.C. Barcelona</title>
-  <link rel="icon" type="image/x-icon" href="iconos/barcelona-fc.ico"/>
-  <link rel="stylesheet" href="/pagina 1/styles/index.css">
-  <link rel="stylesheet" href="/pagina 1/styles/bootstrap.min.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="/pagina 1/iconos/Barcelona-Logo.ico" width="55px" height="35px" class="d-inline-block align-text-top">
-          F.C. Barcelona
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pagina 2/index.html">Masculina</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pagina 2/index1.html">Femenil</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <h1 style="text-align: center; color: brown;"><img src="/pagina 1/iconos/Barcelona-Logo.ico" width="55px" height="35px">F.C. Barcelona</h1>
-            <nav>
-              <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="../pagina 2/index.html">Plantilla</a></li>
-                <li><a href="../pagina 2/index1.html">Plantilla Femenil</a></li>
-              </ul>
-            </nav>
-          </div>
-
-      --> 
-  </header>
-  <main>
-    <h1 style="text-align: center;">Historia</h1>
+<h1 style="text-align: center;">Historia</h1>
     <p style="text-align: center; padding-left: 100px; padding-right: 100px;">
       El Fútbol Club Barcelona fue fundado el 29 de noviembre de 1899 por 
       un grupo de doce aficionados al fútbol, convocados por el suizo Hans
@@ -67,8 +14,6 @@
       finalizó con victoria barcelonista por 2-1.
     </p>
 
-    <hr >
-
     <h1 style="text-align: center;">Palmarés</h1>
 
     <p style="text-align: center; padding-left: 100px; padding-right: 100px;">
@@ -82,8 +27,6 @@
       ha ganado 4 títulos en una misma temporada en 3 ocasiones: 2008-09, 
       2009-10 y 2014-15.
     </p>
-
-    <hr >
 
     <h1 style="text-align: center;">Estadio</h1>
     <p style="text-align: center; padding-left: 100px; padding-right: 100px;">
@@ -111,17 +54,3 @@
       2-1. El 27 de mayo de 2009 se disputó la final de la Liga de Campeones 
       entre el Barcelona y el Manchester United, que finalizó con victoria
     </p>
-    <div style="text-align: center;">
-      <img src="/pagina 1/iconos/campnou.jpeg" alt="campnou" height="500px" width="950px">
-    </div>
-  </main>
-  <footer class="container">
-    <p class="float-end"><a href="#">Volver al inicio</a></p>
-    <p>
-      &copy; 2023. Todos los derechos reservados. Diseñado por <a href="https://github.com/AndresitopAP">Andres Espitia</a>
-      <a href="https://www.instagram.com/andre_espitia/"><img src="/pagina 1/iconos/insta.png" alt="icono instagram" width="20px" height="20px"></a>
-      <a href="https://twitter.com/Andresespi2901"><img src="/pagina 1/iconos/twitter.png" alt="icono twitter" width="20px" height="20px"></a>
-    </p>
-  </footer>
-</body>
-</html>
